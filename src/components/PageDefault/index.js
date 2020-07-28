@@ -12,19 +12,18 @@ const Main = styled.main`
     padding-top: 50px;
     padding-left: 5%;
     padding-right: 5%;
-
 `;
     
 //fazendo um 'sanduiche' dos componentes para uma pagina default personalizada
 
 function PageDefault({ children }) {
     return (
-        //tag morta - fragmento pro react
+        //tag morta - fragmento pro react <></>
+        //ou utilizar <React.fragment>
         <>
             <Menu />
                 <Main>
                     {children}
-
                 </Main>    
             <Footer />
         </>    
