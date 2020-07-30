@@ -22,20 +22,13 @@ function CadastroCategoria() {
     }
 
     function handleChange(infosDoEvento) {
-        //const { getAttribute, value} = infosDoEvento.target ;
-        setValue(
-            infosDoEvento.target.getAttribute('name'),
-            infosDoEvento.target.value
-        );
+        const { name, value } = infosDoEvento.target ;
+        setValue( name ,value );
     }
 
     return (
         <PageDefault>
-        {/* 
-            State - Estado guarda um valor /
-            Vai conter dados, basicamente é uma variavel de controle como true e false no menu,
-            -> há uma separacao dos dados da nossa tela e os dados que serao apresentados na tela do usuario       
-        */}      
+  
             <h1>Nome da Categoria: {values.nome} </h1>
             <form 
                 onSubmit={function handleSubmit(infosDoEvento) {
@@ -49,67 +42,28 @@ function CadastroCategoria() {
 
             }}>
 
-
-           {/* <div>
-                <label>
-                    Nome da Categoria:
-                    <input
-                        type="text"
-                        name= "nome"
-                        value = {values.nome}
-                        onChange={HandleChange}
-                    />
-                </label>
-                </div>
-                
-                <div>
-                    <label>
-                        Descrição:
-                        <input
-                            type="date"
-                            name= "descricao"
-                            value = {values.descricao}
-                            onChange={handleChange}
-                        />
-                    </label>
-                </div>
-                
-            <div>
-                <label>
-                    Cor:
-                    <input
-                        type="color"
-                        name= "cor"
-                        value = {values.cor}
-                        onChange={handleChange}
-                    />
-                </label>                    
-            </div>
-        */}
-
-            <FormField 
-                label="Nome da categoria"
-                type= "text"
-                name= "nome"
-                value={values.nome}
-                onChange={handleChange}
-            />
-            <FormField 
-                label="Descrição"
-                type= "textarea"
-                name= "descricao"
-                value={values.descricao}
-                onChange={handleChange}
-            />
-            <FormField 
-                label="Cor"
-                type= "color"
-                name= "cor"
-                value={values.cor}
-                onChange={handleChange}
-            />
+                <FormField 
+                    label="Nome da categoria"
+                    type= "text"
+                    name= "nome"
+                    value={values.nome}
+                    onChange={handleChange}
+                />
+                <FormField 
+                    label="Descrição"
+                    type= "textarea"
+                    name= "descricao"
+                    value={values.descricao}
+                    onChange={handleChange}
+                />
+                <FormField 
+                    label="Cor"
+                    type= "color"
+                    name= "cor"
+                    value={values.cor}
+                    onChange={handleChange}
+                />
             
-
                 <button>
                     Cadastrar
                 </button>
