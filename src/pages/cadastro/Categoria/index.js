@@ -30,7 +30,9 @@ function CadastroCategoria() {
 
   useEffect(() => {
     console.log('alo');
-    const URL_TOP = 'http://localhost:8080/categorias';
+    const URL_TOP =  window.location.hostname.includes('localhost')
+    ? 'http://localhost:8080/categorias' :
+    'https://app-artflix.herokuapp.com/categorias';
     // O fetCh retorna uma promisse que faz uma busca, podendo passar um .then onde passamos um parametro que vamos buscar na promisse
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
@@ -39,25 +41,6 @@ function CadastroCategoria() {
           ...resposta,
         ]);
       });
-    /*
-    setTimeout(() => {
-      setCategorias([
-        ...categorias,
-        {
-          id: 1,
-          nome: 'Front-End',
-          descricao: 'Uma categoria ai',
-          cor: '#cbd1ff',
-        },
-        {
-          id: 1,
-          nome: 'Back-End',
-          descricao: ' Outra categoria ai',
-          cor: '#cbd1ff',
-        },
-      ]);
-    }, 4 * 1000);
-    */
   }, []);
 
   return (
