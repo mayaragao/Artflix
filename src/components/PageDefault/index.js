@@ -1,10 +1,8 @@
 import React from 'react';
+import styled, { css } from 'styled-components';
 import Menu from '../Menu';
 import Footer from '../Footer';
-import styled from 'styled-components';
 
-
-//estilizando este componente criado main com a ajuda da lib 'styled-components'
 const Main = styled.main`
     background-color: var(--black);
     color: var(--white);
@@ -12,17 +10,16 @@ const Main = styled.main`
     padding-top: 50px;
     padding-left: 5%;
     padding-right: 5%;
+    ${({paddingAll }) => css`
+        padding: ${paddingAll};
+    `}
 `;
     
-//fazendo um 'sanduiche' dos componentes para uma pagina default personalizada
-
-function PageDefault({ children }) {
+function PageDefault({ children, paddingAll }) {
     return (
-        //tag morta - fragmento pro react <></>
-        //ou utilizar <React.fragment>
         <>
             <Menu />
-                <Main>
+                <Main paddingAll={ paddingAll }>
                     {children}
                 </Main>    
             <Footer />
