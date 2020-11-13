@@ -3,11 +3,7 @@
     {
       "id": 1,
       "titulo": "Dimensões Superiores",
-      "cor": "purple",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
+      "cor": "#A239CA",
     },
     {
       "id": 2,
@@ -35,12 +31,12 @@
     {
       "id": 6,
       "titulo": "Computação",
-      "cor": "orange"
+      "cor": "#4717F6"
     },
     {
       "id": 7,
       "titulo": "Filosofia",
-      "cor": "#ff6a00",
+      "cor": "#E7DFDD",
       "link_extra": {
         "text": "Canal do Cortella",
         "url": "https://www.youtube.com/channel/UCyTS929PXJSUiBEFSzdypgg"
@@ -49,10 +45,10 @@
     {
       "id": 5,
       "titulo": "Artflix",
-      "cor": "#ff6a00",
+      "cor": "#9099A2",
       "link_extra": {
         "text": "Codigo fonte",
-        "url": "https://github.com/mayaragao"
+        "url": "https://github.com/mayaragao/artflix"
       }
     }
   ],
@@ -78,18 +74,6 @@
       "titulo": "SEO com React",
       "description": "Será que é tão difícil fazer SEO com React?",
       "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-    },
-    {
-      "id": 2,
-      "categoriaId": 1,
-      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
-    },
-    {
-      "id": 3,
-      "categoriaId": 1,
-      "titulo": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
     },
     {
       "id": 4,
@@ -172,8 +156,8 @@
     {
       "id": 17,
       "categoriaId": 1,
-      "titulo": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+      "titulo": "Quarta dimensão explicada por Carl Sagan",
+      "url": "https://www.youtube.com/watch?v=WMZNLy0hGEI"
     },
     {
       "id": 18,
@@ -282,7 +266,42 @@
       "url": "https://www.youtube.com/watch?v=ZsAk6EzyTmw",
       "categoriaId": 7,
       "id": 62
+    },
+    {
+      "titulo": "Nexus, A Light Art Installation, 2016",
+      "url": "https://www.youtube.com/watch?v=n1od9InBzFE",
+      "categoriaId": 2,
+      "id": 63
+    },
+    {
+      "titulo": "BOX",
+      "url": "https://www.youtube.com/watch?v=lX6JcybgDFo",
+      "categoriaId": 2,
+      "id": 64
+    }, 
+    {
+      "titulo": "360 Slow Motion",
+      "url": "https://www.youtube.com/watch?v=bVx-PFkDf_E",
+      "categoriaId": 2,
+      "id": 65
+    },
+    {
+      "titulo": "TAS - The Canyon 360 4k (VR)",
+      "url": "https://www.youtube.com/watch?v=NNy1sTNC3SI",
+      "categoriaId": 2,
+      "id": 66
+    },
+    {
+      "titulo": "SHOCKWAVE SYNC W/ DUBSTEP",
+      "url": "https://www.youtube.com/watch?v=t77fAvLPqVc",
+      "categoriaId": 2,
+      "id": 67
+    },
+    {
+      "titulo": "A verdade nua e crua sobre o day-trade ",
+      "url": "https://www.youtube.com/watch?v=KFNqcwpwbLU",
+      "categoriaId": 4,
+      "id": 68
     }
-
   ]
 }

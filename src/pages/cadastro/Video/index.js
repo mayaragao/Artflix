@@ -75,11 +75,13 @@ function CadastroVideo() {
       <br />
       <br />
 
-      <Link to="/cadastro/categoria">
-        Cadastrar Categoria
-      </Link>
-    </PageDefault>
+    </PageDefault> 
   );
 }
 
 export default CadastroVideo;
+
+ 
+//<Link to="/cadastro/categoria">
+//Cadastrar Categoria
+//</Link>
