@@ -13,6 +13,7 @@ function Footer() {
         <a href="https://github.com/mayaragao/">
           Mayara Aragão 
         </a>
+        {' '}
         durante a
         {' '}
         <a href="https://www.alura.com.br/">
