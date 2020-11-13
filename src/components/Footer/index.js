@@ -11,7 +11,7 @@ function Footer() {
         Orgulhosamente criado por
         {' '}
         <a href="https://github.com/mayaragao/">
-          Mayara Aragão
+          Mayara Aragão 
         </a>
         durante a
         {' '}
