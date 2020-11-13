@@ -1,20 +1,6 @@
 {
   "categorias": [
     {
-      "id": 6,
-      "titulo": "Cursos Computação",
-      "cor": "orange"
-    },
-    {
-      "id": 5,
-      "titulo": "Artflix",
-      "cor": "#ff6a00",
-      "link_extra": {
-        "text": "Codigo fonte",
-        "url": "https://github.com/mayaragao"
-      }
-    },
-    {
       "id": 1,
       "titulo": "Dimensões Superiores",
       "cor": "purple",
@@ -22,11 +8,6 @@
         "text": "Formação de Jogos na Alura",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       }
-    },
-    {
-      "id": 4,
-      "titulo": "Investimento",
-      "cor": "orange"
     },
     {
       "id": 2,
@@ -38,6 +19,11 @@
       }
     },
     {
+      "id": 4,
+      "titulo": "Investimento",
+      "cor": "red"
+    },
+    {
       "id": 3,
       "titulo": "Front-End",
       "cor": "#00C86F",
@@ -45,8 +31,32 @@
         "text": "Cursos de Front-End na Alura",
         "url": "https://www.alura.com.br/cursos-online-programacao"
       }
+    },
+    {
+      "id": 6,
+      "titulo": "Computação",
+      "cor": "orange"
+    },
+    {
+      "id": 7,
+      "titulo": "Filosofia",
+      "cor": "#ff6a00",
+      "link_extra": {
+        "text": "Canal do Cortella",
+        "url": "https://www.youtube.com/channel/UCyTS929PXJSUiBEFSzdypgg"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Artflix",
+      "cor": "#ff6a00",
+      "link_extra": {
+        "text": "Codigo fonte",
+        "url": "https://github.com/mayaragao"
+      }
     }
   ],
+  
   "videos": [
     {
       "id": 1,
@@ -244,10 +254,35 @@
       "id": 57
     },
     {
-      "titulo": "Beautiful Bangkok, Magnolias Ratchadamri Boulevard, Bangkok",
-      "url": "https://www.youtube.com/watch?v=cN-2t-UVl9Y",
-      "categoriaId": 6,
-      "id": 57
+      "titulo": "O Tempo E A Vida - Cortella",
+      "url": "https://www.youtube.com/watch?v=Ek2LmQ5d6Jo",
+      "categoriaId": 7,
+      "id": 58
+    },
+    {
+      "titulo": "Faça Por Merecer - Cortella",
+      "url": "https://www.youtube.com/watch?v=5jri49R8IKA&list=RDCMUCyTS929PXJSUiBEFSzdypgg&index=4",
+      "categoriaId": 7,
+      "id": 59
+    },
+    {
+      "titulo": "A humana escolha entre virtudes e vícios",
+      "url": "https://www.youtube.com/watch?v=Y0JlKw0ExgI",
+      "categoriaId": 7,
+      "id": 60
+    },
+    {
+      "titulo": "Estratégias para a vida - Zygmunt Bauman",
+      "url": "https://www.youtube.com/watch?v=IyhOBYoBnsU&t=580s",
+      "categoriaId": 7,
+      "id": 61
+    }, 
+    {
+      "titulo": "O que consideramos uma sociedade justa? | Fernando Schuller",
+      "url": "https://www.youtube.com/watch?v=ZsAk6EzyTmw",
+      "categoriaId": 7,
+      "id": 62
     }
+
   ]
 }
