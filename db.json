@@ -45,7 +45,7 @@
         "text": "Cursos de Front-End na Alura",
         "url": "https://www.alura.com.br/cursos-online-programacao"
       }
-    },
+    }
   ],
   "videos": [
     {
@@ -248,6 +248,6 @@
       "url": "https://www.youtube.com/watch?v=cN-2t-UVl9Y",
       "categoriaId": 6,
       "id": 57
-    },
+    }
   ]
 }
