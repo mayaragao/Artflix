@@ -1,6 +1,8 @@
 # Artflix
 
-Projeto desenvolvido durante a semana de Imersão React da Alura. Se baseia em uma Single Page Application baseada no design do Netflix.
+Projeto desenvolvido durante a semana de Imersão React da Alura. 
+
+Se baseia em uma Single Page Application baseada no design do Netflix.
 O Artflix, é uma vitrine de vídeos sobre assuntos que me interesso, com formulário para inclusão de novos
 vídeos. 
 
