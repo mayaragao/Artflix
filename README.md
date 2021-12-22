@@ -16,4 +16,6 @@ utilizando Heroku. Pode ser acessado pelo link:
 
 
 
-Para rodar localmente, rode o seguinte comando dentro do diretório do projeto: `npm start`
+Para rodar localmente, rode o seguinte comando dentro do diretório do projeto: `npm install`
+
+Após instalação de todos os pacotes, rode o comando `npm start`
