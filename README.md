@@ -42,7 +42,7 @@ npm install
 
 ### Acesso a API
 
-Após instalação de todos os pacotes, para abrir a aplicação na sua máquina local, rode o comando:
+Após instalar todos os pacotes necessários, para abrir a aplicação na sua máquina local, rode o comando:
 
 ```
 npm start
