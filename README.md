@@ -1,6 +1,22 @@
+<div align="center">
+
 # Artflix
 
-Projeto desenvolvido durante a semana de Imersão React da Alura. 
+</div>
+<div align="center">
+        <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react"  height="35" width="40"/> </a>
+        <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs"  height="35" width="40"/> </a> 
+        
+        <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/heroku/heroku-original.svg" alt="nodejs"  height="35" width="40"/> </a> 
+        
+        
+        heroku-original.svg
+</div>
+
+
+Projeto desenvolvido durante a semana de Imersão React da Alura.  
+
+
 
 Se baseia em uma Single Page Application baseada no design do Netflix.
 O Artflix, é uma vitrine de vídeos sobre assuntos que me interesso, com formulário para inclusão de novos
@@ -11,11 +27,19 @@ focando nas funcionalidades do framework React JS, utilizando styled-components 
 estilo da aplicação. O deploy da aplicação foi feito utilizando a plataforma Vercel e o deploy do servidor
 utilizando Heroku. Pode ser acessado pelo link:
         
-####         `https://artflix.vercel.app/`
+https://artflix.vercel.app/
 
 
 
 
-Para rodar localmente, rode o seguinte comando dentro do diretório do projeto: `npm install`
+Para rodar localmente, rode o seguinte comando dentro do diretório do projeto:
 
-Após instalação de todos os pacotes, rode o comando `npm start`
+```
+npm install
+```
+
+Após instalação de todos os pacotes, rode o comando:
+
+```
+npm start
+```
