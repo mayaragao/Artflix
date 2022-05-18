@@ -26,8 +26,9 @@ Pode ser acessado pelo link:
 
 **https://artflix.vercel.app/**
 
+##
 
-## Instalação
+### Instalação
 
 Para rodar localmente, é necessário instalar todas as dependencias do projeto. Rode o seguinte comando no terminal no diretório do projeto:
 
@@ -35,10 +36,11 @@ Para rodar localmente, é necessário instalar todas as dependencias do projeto.
 npm install
 ```
 
-**Observação**: Se você ainda não possui o **Node.js** instalado na sua máquina local, primeiramente instale e depois rode o comando acima. 
-
+**Observação**: Se você ainda não possui o **Node.js** instalado na sua máquina local, instale e depois rode o comando acima. 
 
 ##
+
+### Acesso a API
 
 Após instalação de todos os pacotes, para abrir a aplicação na sua máquina local, rode o comando:
 
